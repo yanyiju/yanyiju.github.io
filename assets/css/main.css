@@ -99,11 +99,15 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		/* background-color: #935d8c; */
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		background-image: url("../../images/bkgd1-removebg.png"), url("../../images/bkgd3.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-repeat: no-repeat;
+		background-size: 30%, 100%, auto;
+		background-position: right bottom, top;
+		background-blend-mode: overlay;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -119,10 +123,10 @@ input, select, textarea {
 
 /* Type */
 
-	body {
+	/* body {
 		background-color: #935d8c;
 		color: rgba(255, 255, 255, 0.65);
-	}
+	} */
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -2256,7 +2260,7 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			border: solid 1px;
+			/* border: solid 1px; */
 			display: inline-block;
 			border-radius: 100%;
 			padding: 0.65em;
@@ -2277,7 +2281,7 @@ input, select, textarea {
 
 		.icon.alt {
 			display: inline-block;
-			border: solid 1px;
+			/* border: solid 1px; */
 			border-radius: 100%;
 		}
 
